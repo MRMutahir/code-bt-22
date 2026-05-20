@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* #box {
+    width: 1000px;
+    height: 400px;
+    background-color: aqua;
+    border: 2px red solid;
+    font-size: 20px;
+} */
+
+
+
+/* #box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 50%;
+
+
+} */
+
+body {
+    background-image: url('https://img.magnific.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?semt=ais_hybrid&w=740&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

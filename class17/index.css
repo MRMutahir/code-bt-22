@@ -1,0 +1,7 @@
+.my-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 50px solid red;
+  margin: 200px;
+}

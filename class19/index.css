@@ -1,0 +1,39 @@
+/*
+
+p {
+    width: 800px;
+    height: 500px;
+    background-color: yellow;
+} */
+
+/* li {
+    display: inline;
+    margin-right: 10px
+}
+
+.coming-soon {
+    color: red;
+
+    visibility: hidden;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    width: 800px;
+    height: 500px;
+    background-color: red;
+    display: inline-block;
+    margin: 50px 100px;
+    color: blue;
+    /* box-shadow: 20px 50px 50px -10px yellow; */
+
+    /* box-shadow: 10px 10px 5px grey; */
+
+    box-shadow: inset 20px 20px 50px black;
+}
