@@ -1,14 +1,13 @@
 # JavaScript Middle Level Assignment — 10 Questions
 
-Ye questions `chapter1-20.md` mein use hone wale topics (if/else, for loop, arrays ke methods: push, pop, shift, unshift, splice, slice, includes, length) ko combine karke bane hain. Koi naya topic add nahi kiya gaya.
 
 ## Q1 — Do Arrays ko Merge Karna
 
 Given:
 
 ```js
-let arr1 = [1, 2, 3];
-let arr2 = [4, 5, 6];
+var arr1 = [1, 2, 3];
+var arr2 = [4, 5, 6];
 ```
 
 `for` loop use karke `arr2` ke sare items `arr1` mein add karo (naya combined array banao).
@@ -26,7 +25,7 @@ let arr2 = [4, 5, 6];
 Given:
 
 ```js
-let numbers = [45, 12, 89, 33, 89, 20];
+var numbers = [45, 12, 89, 33, 89, 20];
 ```
 
 `for` loop use karke array ka second largest number find karo.
@@ -44,8 +43,8 @@ let numbers = [45, 12, 89, 33, 89, 20];
 Given:
 
 ```js
-let numbers = [10, 20, 10, 30, 10, 40, 20];
-let searchNumber = 10;
+var numbers = [10, 20, 10, 30, 10, 40, 20];
+var searchNumber = 10;
 ```
 
 Loop use karke check karo `searchNumber` array mein kitni baar mojood hai.
@@ -63,7 +62,7 @@ Loop use karke check karo `searchNumber` array mein kitni baar mojood hai.
 Given:
 
 ```js
-let numbers = [5, 12, 7, 20, 15, 8];
+var numbers = [5, 12, 7, 20, 15, 8];
 ```
 
 `for` loop use karke sirf even numbers ka sum nikalo (odd numbers ko skip karo).
@@ -81,7 +80,7 @@ let numbers = [5, 12, 7, 20, 15, 8];
 Given:
 
 ```js
-let numbers = [10, -5, 20, -8, 0, 15, -3];
+var numbers = [10, -5, 20, -8, 0, 15, -3];
 ```
 
 Loop use karke do naye arrays banao — ek positive numbers ke liye aur ek negative numbers ke liye.
@@ -100,7 +99,7 @@ Negative: [-5, -8, -3]
 Given:
 
 ```js
-let numbers = [10, 20, 25, 40, 55];
+var numbers = [10, 20, 25, 40, 55];
 ```
 
 `for` loop use karke check karo array ascending (chote se bare) order mein sorted hai ya nahi.
@@ -124,7 +123,7 @@ Array is not sorted
 Given:
 
 ```js
-let marks = [85, 72, 91, 60, 45, 78, 55];
+var marks = [85, 72, 91, 60, 45, 78, 55];
 ```
 
 Har student ke marks ke liye grade nikalo (Q21 wali grading logic use karo) aur count karo kitne students ne "A Grade" liya.
@@ -142,7 +141,7 @@ A Grade students: 2
 Given:
 
 ```js
-let numbers = [10, 20, 10, 30, 20, 40, 10];
+var numbers = [10, 20, 10, 30, 20, 40, 10];
 ```
 
 Pehle duplicate values remove karo (Q27 ki logic), phir unique numbers ka sum calculate karo.
@@ -161,7 +160,7 @@ Sum: 100
 Given:
 
 ```js
-let prices = [150, 300, 80, 220];
+var prices = [150, 300, 80, 220];
 ```
 
 `for` loop use karke total bill calculate karo, phir:
@@ -177,7 +176,7 @@ let prices = [150, 300, 80, 220];
 Given:
 
 ```js
-let numbers = [12, 45, 23, 67, 34, 89, 10];
+var numbers = [12, 45, 23, 67, 34, 89, 10];
 ```
 
 `for` loop use karke array ka average nikalo, phir dobara loop chala kar count karo array mein kitne numbers average se bare hain.
